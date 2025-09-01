@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "AdbloK",
+  "version": "1.0",
+  "description": "Blocks ads and trackers based on a predefined list.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage",
+    "activeTab"
+  ],
