@@ -9,3 +9,12 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  text-align: center;
+  color: #1a202c;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
