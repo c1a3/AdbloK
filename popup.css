@@ -53,3 +53,7 @@ li:last-child {
 li:hover {
   background: #f7fafc;
 }
+
+ul::-webkit-scrollbar {
+  width: 8px;
+}
