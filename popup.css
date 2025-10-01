@@ -36,3 +36,12 @@ ul {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin: 0;
 }
+
+li {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #2d3748;
+  border-bottom: 1px solid #edf2f7;
+  transition: background 0.2s ease;
+  word-break: break-all;
+}
