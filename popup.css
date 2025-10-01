@@ -45,3 +45,7 @@ li {
   transition: background 0.2s ease;
   word-break: break-all;
 }
+
+li:last-child {
+  border-bottom: none;
+}
