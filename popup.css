@@ -54,6 +54,6 @@ li:hover {
   background: #f7fafc;
 }
 
-ul::-webkit-scrollbar {
+ul::-webkit-scrollbar { 
   width: 8px;
 }
