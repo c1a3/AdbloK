@@ -8,4 +8,4 @@ document.addEventListener("DOMContentLoaded", () => {
       const li = document.createElement("li");
       li.textContent = pattern;
       blockListUl.appendChild(li);
-    });
+    }); 
