@@ -9,3 +9,4 @@ document.addEventListener("DOMContentLoaded", () => {
       li.textContent = pattern;
       blockListUl.appendChild(li);
     }); 
+ 
