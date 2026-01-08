@@ -19,4 +19,5 @@ document.addEventListener("DOMContentLoaded", () => {
       'div[id*="banner"]',
       'iframe[src*="doubleclick.net"]'
     ];
+    selectors.forEach(selector => {
  
