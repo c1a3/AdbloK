@@ -9,4 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
       li.textContent = pattern;
       blockListUl.appendChild(li);
     }); 
+
+    const selectors = [
+      'div[id*="ad"]',
+      'div[class*="ad"]',
+      'ins.adsbygoogle',
+      '[data-ad-client]',
+      '[data-ad-slot]',
+      'div[id*="banner"]',
+      'iframe[src*="doubleclick.net"]'
+    ];
  
