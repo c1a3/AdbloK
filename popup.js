@@ -21,5 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
     selectors.forEach(selector => {
       const li = document.createElement("li");
+      li.textContent = `selector:${selector}`;
+      blockListUl.appendChild(li);
       
  
