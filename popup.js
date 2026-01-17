@@ -26,11 +26,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-/*
-
-
-
-*/
       
  
