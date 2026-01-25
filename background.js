@@ -9,3 +9,13 @@ const blockList = [
   "*://*.scorecardresearch.com/*",
   "*://*.html-load.com/*"
 ];
+
+browser.webRequest.onBeforeRequest.addListener(
+  function(details) {
+    return { cancel: blockList.some(pattern => {
+      try {
+        return details.url.match(new RegExp(pattern.replace(/\*/g, ".*")));
+      } catch (e) {
+        console.error(`Invalid pattern: ${pattern}`);
+        return false;
+      }
