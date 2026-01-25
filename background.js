@@ -20,3 +20,7 @@ browser.webRequest.onBeforeRequest.addListener(
         return false;
       }
     }) };
+  },
+  { urls: ["<all_urls>"] },
+  ["blocking"]
+);
