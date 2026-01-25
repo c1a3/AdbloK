@@ -19,3 +19,4 @@ browser.webRequest.onBeforeRequest.addListener(
         console.error(`Invalid pattern: ${pattern}`);
         return false;
       }
+    }) };
