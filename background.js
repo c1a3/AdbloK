@@ -25,4 +25,8 @@ browser.webRequest.onBeforeRequest.addListener(
   ["blocking"]
 );
 
-
+browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.action === "getBlockList") {
+    sendResponse({ blockList });
+  }
+});
