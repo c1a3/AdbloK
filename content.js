@@ -1,1 +1,2 @@
-const adSelectors
+const adSelectors = [
+];
