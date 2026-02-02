@@ -1,1 +1,1 @@
-
+const adSelectors
