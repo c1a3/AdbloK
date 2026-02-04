@@ -1,2 +1,4 @@
 const adSelectors = [
 ];
+
+function hideAds() {
