@@ -6,7 +6,7 @@ const blockList = [
   "*://*.adservice.google.com/*",
   "*://*.analytics.google.com/*",
   "*://*.facebook.com/tr/*",
-  "*://*.scorecardresearch.com/*",
+  "*://*.scorecardresearch.com/*", 
   "*://*.html-load.com/*"
 ];
 
