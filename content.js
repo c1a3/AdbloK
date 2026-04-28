@@ -3,7 +3,7 @@ const adSelectors = [
 
 function hideAds() {
   const elements = document.querySelectorAll(adSelectors.join(", "));
-  elements.forEach(el => {
+  elements.forEach(el => { 
     el.style.display = "none";
   });
 }
