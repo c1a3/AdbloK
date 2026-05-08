@@ -7,7 +7,7 @@ function hideAds() {
     el.style.display = "none";
   });
 }
-
+ 
 hideAds();
 
 const observer = new MutationObserver(hideAds);
